@@ -1,0 +1,42 @@
+{
+  "name": "PORSCHE-LandingPage-EdgeX",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241126121806",
+  "not-first-run": true,
+  "function": {
+    "id": 32795,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31512,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 189790
+  },
+  "application": {
+    "id": 1732628075,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732625956,
+    "name": "PORSCHE-LandingPage-EdgeX",
+    "domain_name": "tfzq068yyl.map.azionedge.net",
+    "url": "https://tfzq068yyl.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 324991,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
